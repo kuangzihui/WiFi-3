@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8D9CCF5176EB83F00F23C2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D9CCF4176EB83F00F23C2C /* UIKit.framework */; };
+		E8D9CCF7176EB83F00F23C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D9CCF6176EB83F00F23C2C /* Foundation.framework */; };
+		E8D9CCF9176EB83F00F23C2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D9CCF8176EB83F00F23C2C /* CoreGraphics.framework */; };
+		E8D9CCFF176EB83F00F23C2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8D9CCFD176EB83F00F23C2C /* InfoPlist.strings */; };
+		E8D9CD01176EB83F00F23C2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9CD00176EB83F00F23C2C /* main.m */; };
+		E8D9CD05176EB83F00F23C2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9CD04176EB83F00F23C2C /* AppDelegate.m */; };
+		E8D9CD08176EB83F00F23C2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9CD07176EB83F00F23C2C /* ViewController.m */; };
+		E8D9CD0B176EB83F00F23C2C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D9CD09176EB83F00F23C2C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8D9CCF0176EB83F00F23C2C /* YYWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D9CCF4176EB83F00F23C2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8D9CCF6176EB83F00F23C2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8D9CCF8176EB83F00F23C2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8D9CCFC176EB83F00F23C2C /* YYWallet-Info.plist */ = {isa = PBXFileReference; path = "YYWallet-Info.plist"; sourceTree = "<group>"; };
+		E8D9CCFE176EB83F00F23C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8D9CD00176EB83F00F23C2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D9CD02176EB83F00F23C2C /* YYWallet-Prefix.pch */ = {isa = PBXFileReference; path = "YYWallet-Prefix.pch"; sourceTree = "<group>"; };
+		E8D9CD03176EB83F00F23C2C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D9CD04176EB83F00F23C2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D9CD06176EB83F00F23C2C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E8D9CD07176EB83F00F23C2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8D9CD0A176EB83F00F23C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D9CCED176EB83F00F23C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D9CCF5176EB83F00F23C2C /* UIKit.framework in Frameworks */,
+				E8D9CCF7176EB83F00F23C2C /* Foundation.framework in Frameworks */,
+				E8D9CCF9176EB83F00F23C2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8D9CCE5176EB83F00F23C2C = {
+			isa = PBXGroup;
+			children = (
+				E8D9CCFA176EB83F00F23C2C /* YYWallet */,
+				E8D9CCF3176EB83F00F23C2C /* Frameworks */,
+				E8D9CCF1176EB83F00F23C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D9CCF1176EB83F00F23C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9CCF0176EB83F00F23C2C /* YYWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D9CCF3176EB83F00F23C2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9CCF4176EB83F00F23C2C /* UIKit.framework */,
+				E8D9CCF6176EB83F00F23C2C /* Foundation.framework */,
+				E8D9CCF8176EB83F00F23C2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8D9CCFA176EB83F00F23C2C /* YYWallet */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9CD03176EB83F00F23C2C /* AppDelegate.h */,
+				E8D9CD04176EB83F00F23C2C /* AppDelegate.m */,
+				E8D9CD06176EB83F00F23C2C /* ViewController.h */,
+				E8D9CD07176EB83F00F23C2C /* ViewController.m */,
+				E8D9CD09176EB83F00F23C2C /* ViewController.xib */,
+				E8D9CCFB176EB83F00F23C2C /* Supporting Files */,
+			);
+			path = YYWallet;
+			sourceTree = "<group>";
+		};
+		E8D9CCFB176EB83F00F23C2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9CCFC176EB83F00F23C2C /* YYWallet-Info.plist */,
+				E8D9CCFD176EB83F00F23C2C /* InfoPlist.strings */,
+				E8D9CD00176EB83F00F23C2C /* main.m */,
+				E8D9CD02176EB83F00F23C2C /* YYWallet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D9CCEF176EB83F00F23C2C /* YYWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D9CD0E176EB83F00F23C2C /* Build configuration list for PBXNativeTarget "YYWallet" */;
+			buildPhases = (
+				E8D9CCEC176EB83F00F23C2C /* Sources */,
+				E8D9CCED176EB83F00F23C2C /* Frameworks */,
+				E8D9CCEE176EB83F00F23C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYWallet;
+			productName = YYWallet;
+			productReference = E8D9CCF0176EB83F00F23C2C /* YYWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D9CCE7176EB83F00F23C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = WJ;
+			};
+			buildConfigurationList = E8D9CCEA176EB83F00F23C2C /* Build configuration list for PBXProject "YYWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8D9CCE5176EB83F00F23C2C;
+			productRefGroup = E8D9CCF1176EB83F00F23C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D9CCEF176EB83F00F23C2C /* YYWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D9CCEE176EB83F00F23C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D9CCFF176EB83F00F23C2C /* InfoPlist.strings in Resources */,
+				E8D9CD0B176EB83F00F23C2C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D9CCEC176EB83F00F23C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D9CD01176EB83F00F23C2C /* main.m in Sources */,
+				E8D9CD05176EB83F00F23C2C /* AppDelegate.m in Sources */,
+				E8D9CD08176EB83F00F23C2C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D9CCFD176EB83F00F23C2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D9CCFE176EB83F00F23C2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8D9CD09176EB83F00F23C2C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D9CD0A176EB83F00F23C2C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D9CD0C176EB83F00F23C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8D9CD0D176EB83F00F23C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D9CD0F176EB83F00F23C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YYWallet/YYWallet-Prefix.pch";
+				INFOPLIST_FILE = "YYWallet/YYWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8D9CD10176EB83F00F23C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YYWallet/YYWallet-Prefix.pch";
+				INFOPLIST_FILE = "YYWallet/YYWallet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D9CCEA176EB83F00F23C2C /* Build configuration list for PBXProject "YYWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D9CD0C176EB83F00F23C2C /* Debug */,
+				E8D9CD0D176EB83F00F23C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D9CD0E176EB83F00F23C2C /* Build configuration list for PBXNativeTarget "YYWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D9CD0F176EB83F00F23C2C /* Debug */,
+				E8D9CD10176EB83F00F23C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D9CCE7176EB83F00F23C2C /* Project object */;
+}
